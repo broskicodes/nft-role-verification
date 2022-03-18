@@ -58,6 +58,11 @@ export const Verify = () => {
     });
 
     console.log(owner);
+    if(owner){
+      alert("You own an Metavillage NFT!");
+    } else {
+      alert("Seems like you don't own a Metavillage NFT.")
+    }
     return owner;
   }
 
